@@ -1,0 +1,59 @@
+.bloque {
+  width: 80%;
+  padding: 10px;
+  box-shadow: 1px 1px 7px blue;
+  background-color: rgb(182, 225, 240);
+  border-radius: 10px;
+  margin: 0 auto; /* Centra horizontalmente el bloque */
+  margin-bottom: 15px;
+}
+
+.contenido {
+  display: flex;
+}
+
+.fecha {
+  color: aliceblue;
+  text-align: center;
+}
+
+p {
+  font-size: small;
+  color: white;
+  width: auto;
+}
+
+.bloque p {
+  flex-basis: 30%; /* Ajusta el ancho del p para el espaciado horizontal */
+  text-align: center; /* Centra el texto horizontalmente */
+  border-right: 1px solid #ccc; /* Línea vertical derecha */
+  padding-right: 10px; /* Espaciado a la derecha de cada p */
+}
+.bloque p:last-child {
+  border-right: none; /* Elimina la línea vertical en el último p */
+}
+
+.icono {
+  font-size: 2rem; /* Elige el tamaño que desees, por ejemplo, 2rem */
+}
+
+.titulo {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 8px lightblue;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+@media (max-width: 550px) {
+  .contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .bloque p {
+    flex-basis: 25%; /* Ajusta el ancho del p para el espaciado horizontal */
+    text-align: center; /* Centra el texto horizontalmente */
+    border-right: 1px solid #ccc; /* Línea vertical derecha */
+    padding-right: 10px; /* Espaciado a la derecha de cada p */
+  }
+}

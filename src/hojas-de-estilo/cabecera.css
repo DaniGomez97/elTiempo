@@ -1,0 +1,15 @@
+.header {
+  position: static;
+  background-color: black;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+  display: flex; /* Usa Flexbox para distribuir los botones */
+  justify-content: space-between; /* Distribuye los botones uniformemente */
+  
+}
+
+.botones {
+  display: flex;
+  width: 100%;
+}

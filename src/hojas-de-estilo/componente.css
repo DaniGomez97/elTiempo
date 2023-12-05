@@ -1,0 +1,65 @@
+h1 {
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+
+.componente-web {
+  border: 1px solid darkblue;
+  width: auto;
+  box-shadow: 0px 0px 0.3px darkblue;
+  border-radius: 10px;
+  margin-left: 10%;
+  float: left;
+  padding: 10px;
+  background-color: aliceblue;
+  margin-bottom: 30px;
+}
+
+.tituloComp,
+.subtituloComp {
+  text-align: center;
+}
+
+.componente-web p {
+  color: darkblue;
+  text-align: center;
+  font-style: italic;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.componente-movil {
+  float: left;
+  background-color: rgb(103, 137, 250);
+  color: white;
+  width: 135px;
+  padding: 12px;
+  border-radius: 10px;
+  margin-left: 7%;
+  margin-bottom: 30px;
+}
+
+.titulo-movil {
+  margin-bottom: -20px;
+  margin-top: -8px;
+}
+
+.temp-movil {
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: -20px;
+}
+
+.componente-movil p {
+  font-style: italic;
+  margin: 0; /* Establece el margen vertical a 0 para reducir el espacio */
+}
+
+@media (max-width: 350px) {
+  .componente-movil {
+    background-color: red;
+  }
+}

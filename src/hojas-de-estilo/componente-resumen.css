@@ -1,0 +1,20 @@
+.resumen {
+    color: rgba(0, 0, 0, 0.705);
+    width: 85%;
+    margin: 0 auto; /* Centra horizontalmente el bloque */
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo-inicial{
+    color: #ff9900; /* Un color naranja vibrante */
+    font-size: 48px; /* Tamaño de fuente más grande */
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra de texto en gris oscuro */
+  }
